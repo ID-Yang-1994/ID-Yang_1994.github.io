@@ -1,115 +1,115 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人作品集</title>
-    <style>
+<!DOCTYPE html> <!-- 宣告這是一個 HTML5 文件 -->
+<html lang="zh-Hant"> <!-- 設定網頁主要語言為繁體中文 -->
+<head> <!-- 網頁的頭部，放置後台資訊與設定，不會顯示在頁面上 -->
+    <meta charset="UTF-8"> <!-- 設定文字編碼為 UTF-8，確保各國文字不亂碼 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 讓網頁寬度等於裝置寬度，是「響應式設計」的關鍵 -->
+    <title>我的個人作品集</title> <!-- 顯示在瀏覽器分頁上的標題 -->
+    <style> <!-- 開始撰寫 CSS 樣式 -->
         /* CSS 樣式：負責網頁外觀 */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            color: #333;
-            background-color: #f4f4f4;
+        body { 
+            font-family: 'Segoe UI', 'Microsoft JhengHei', 'PingFang TC', Arial, sans-serif; /* 設定網頁字體 */
+            line-height: 1.6; /* 設定行高，讓文字閱讀不擁擠 */
+            margin: 0; /* 清除瀏覽器預設的邊距 */
+            color: #333; /* 設定預設文字顏色為深灰色 */
+            background-color: #f4f4f4; /* 設定網頁背景顏色為淺灰色 */
         }
 
-        header {
-            background: #2c3e50;
-            color: #fff;
-            padding: 2rem;
-            text-align: center;
+        header { 
+            background: #2c3e50; /* 設定頁首背景為深藍色 */
+            color: #fff; /* 設定頁首文字顏色為白色 */
+            padding: 2rem; /* 設定頁首內部的留白距離 */
+            text-align: center; /* 讓頁首內容置中 */
         }
 
-        .container {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 20px;
+        .container { 
+            max-width: 1000px; /* 限制內容最大寬度為 1000 像素 */
+            margin: 2rem auto; /* 讓容器區塊上下留白、左右自動置中 */
+            padding: 0 20px; /* 讓容器左右留一點點邊界，手機看才不會貼邊 */
         }
 
-        section {
-            background: #fff;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        section { 
+            background: #fff; /* 區塊背景設定為白色 */
+            padding: 2rem; /* 區塊內留白 */
+            margin-bottom: 2rem; /* 每個區塊下方的間隔 */
+            border-radius: 8px; /* 區塊邊角圓角化 */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 加入淡淡的陰影增加層次感 */
         }
 
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
+        h2 { 
+            color: #2c3e50; /* 設定標題顏色 */
+            border-bottom: 2px solid #eee; /* 標題下方的淺灰色裝飾線 */
+            padding-bottom: 10px; /* 標題文字與下底線的距離 */
         }
 
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+        .project-grid { 
+            display: grid; /* 開啟網格佈局模式 */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 自動根據寬度排列卡片數量，最少 250px 一格 */
+            gap: 20px; /* 設定卡片之間的間隙距離 */
         }
 
-        .project-card {
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 5px;
-            transition: transform 0.3s ease;
+        .project-card { 
+            border: 1px solid #ddd; /* 卡片外框線 */
+            padding: 15px; /* 卡片內部留白 */
+            border-radius: 5px; /* 卡片邊角圓角 */
+            transition: transform 0.3s ease; /* 設定動畫過渡效果，讓動作更平滑 */
         }
 
-        .project-card:hover {
-            transform: translateY(-5px);
-            border-color: #3498db;
+        .project-card:hover { 
+            transform: translateY(-5px); /* 當滑鼠移上去時，卡片向上漂浮 5 像素 */
+            border-color: #3498db; /* 滑鼠移上去時邊框變藍色 */
         }
 
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: #777;
+        footer { 
+            text-align: center; /* 頁尾文字置中 */
+            padding: 2rem; /* 頁尾留白 */
+            color: #777; /* 頁尾文字設定為淡灰色 */
         }
-    </style>
+    </style> <!-- CSS 結束 -->
 </head>
-<body>
+<body> <!-- 網頁的主體，所有顯示在螢幕上的內容都放在這 -->
 
-    <header>
-        <h1>你好，我是 [你的名字]</h1>
-        <p>一位熱愛設計與開發的創意工作者</p>
+    <header> <!-- 頁首區塊 -->
+        <h1>你好，我是 [你的名字]</h1> <!-- 主標題 -->
+        <p>一位熱愛設計與開發的創意工作者</p> <!-- 副標題 -->
     </header>
 
-    <div class="container">
-        <!-- 關於我 -->
-        <section id="about">
-            <h2>關於我</h2>
-            <p>這裡可以寫下你的簡介。例如：我專注於前端開發，喜歡將複雜的問題簡化為優雅的解決方案。</p>
+    <div class="container"> <!-- 主要內容包裝容器 -->
+        <!-- 關於我區塊 -->
+        <section id="about"> 
+            <h2>關於我</h2> <!-- 區塊標題 -->
+            <p>這裡可以寫下你的簡介。例如：我專注於前端開發，喜歡將複雜的問題簡化為優雅的解決方案。</p> <!-- 段落內容 -->
         </section>
 
         <!-- 作品集區塊 -->
-        <section id="projects">
+        <section id="projects"> 
             <h2>我的作品</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>專案 A</h3>
-                    <p>這是一個關於網頁設計的專案，解決了使用者體驗的問題。</p>
+            <div class="project-grid"> <!-- 作品網格容器 -->
+                <div class="project-card"> <!-- 作品卡片 1 -->
+                    <h3>專案 A</h3> <!-- 作品名稱 -->
+                    <p>這是一個關於網頁設計的專案，解決了使用者體驗的問題。</p> <!-- 作品描述 -->
                 </div>
-                <div class="project-card">
+                <div class="project-card"> <!-- 作品卡片 2 -->
                     <h3>專案 B</h3>
                     <p>這是一個行動裝置 App 的介面設計，強調極簡風格。</p>
                 </div>
-                <div class="project-card">
+                <div class="project-card"> <!-- 作品卡片 3 -->
                     <h3>專案 C</h3>
                     <p>後端系統優化專案，提升了 50% 的運算效率。</p>
                 </div>
             </div>
         </section>
 
-        <!-- 聯絡方式 -->
-        <section id="contact">
+        <!-- 聯絡方式區塊 -->
+        <section id="contact"> 
             <h2>聯絡我</h2>
             <p>Email: yourname@example.com</p>
             <p>LinkedIn / GitHub: @yourusername</p>
         </section>
-    </div>
+    </div> <!-- 容器結束 -->
 
-    <footer>
-        <p>&copy; 2026 [你的名字]. 版權所有.</p>
+    <footer> <!-- 頁尾區塊 -->
+        <p>&copy; 2026 [你的名字]. 版權所有.</p> <!-- 版權聲明文字 -->
     </footer>
 
 </body>
-</html>
+</html> <!-- HTML 文件結束 -->
