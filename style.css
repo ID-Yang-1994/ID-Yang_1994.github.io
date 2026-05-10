@@ -1,20 +1,20 @@
-body { 
-            font-family: 'Segoe UI', 'Microsoft JhengHei', 'PingFang TC', Arial, sans-serif; /* 設定網頁字體 */
-            line-height: 1.6; /* 設定行高，讓文字閱讀不擁擠 */
+   body { 
+            font-family: 'Segoe UI', 'Microsoft JhengHei', 'PingFang TC', Arial, sans-serif; /* 網頁字體 */
+            line-height: 1.6; /* 行高 */
             margin: 0; /* 清除瀏覽器預設的邊距 */
-            color: #333; /* 設定預設文字顏色為深灰色 */
-            background-color: #f4f4f4; /* 設定網頁背景顏色為淺灰色 */
+            color: #333; /* 文字顏色 */
+            background-color: #f4f4f4; /* 網頁背景顏色 */
         }
 
         header { 
-            background: #2c3e50; /* 設定頁首背景為深藍色 */
-            color: #fff; /* 設定頁首文字顏色為白色 */
-            padding: 2rem; /* 設定頁首內部的留白距離 */
-            text-align: center; /* 讓頁首內容置中 */
+            background: #2c3e50; /* 頁首背景色 */
+            color: #fff; /* 頁首文字顏色 */
+            padding: 2rem; /* 頁首內部 */
+            text-align: center; /* 頁首內容對齊方式 */
         }
 
         .container { 
-            max-width: 1000px; /* 限制內容最大寬度為 1000 像素 */
+            max-width: 1000px; /* 限制內容最大寬度 */
             margin: 2rem auto; /* 讓容器區塊上下留白、左右自動置中 */
             padding: 0 20px; /* 讓容器左右留一點點邊界，手機看才不會貼邊 */
         }
