@@ -13,7 +13,7 @@
             text-align: center; /* 頁首內容對齊方式 */
         }
 
-        .container { 
+        .container { /* 加了「點」代表它是一個 class（類別）名稱 */
             max-width: 1000px; /* 限制內容最大寬度 */
             margin: 2rem auto; /* 讓容器區塊上下留白、左右自動置中 */
             padding: 0 20px; /* 讓容器左右留一點點邊界，手機看才不會貼邊 */
