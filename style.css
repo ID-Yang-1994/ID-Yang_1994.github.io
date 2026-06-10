@@ -13,7 +13,6 @@
             text-align: center; /* 頁首內容對齊方式 */
         }
 
-
         .container { /* 加了「點」代表它是一個 class（類別）名稱 */
             max-width: 1000px; /* 限制內容最大寬度 */
             margin: 2rem auto; /* 讓容器區塊上下留白、左右自動置中 */
@@ -23,9 +22,9 @@
        .btn {
             background: transparent;
             color: #007bff;
-            border: 2px solid #007bff;
-            padding: 10px 16px;
-            border-radius: 6px;
+            border: 1px solid #333;
+            padding: 30px 15px;
+            border-radius: 50px;
             }
 
       .btn:hover {
