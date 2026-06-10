@@ -7,8 +7,8 @@
         }
 
         header { 
-            background: #2c3e50; /* 頁首背景色 */
-            color: #fff; /* 頁首文字顏色 */
+            background: #E0E0E0; /* 頁首背景色 */
+            color: #333; /* 頁首文字顏色 */
             padding: 2rem; /* 頁首內部 */
             text-align: center; /* 頁首內容對齊方式 */
         }
