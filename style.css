@@ -21,17 +21,16 @@
         }
 
        .btn {
-           background-color: #007bff;
-           color: white;
-           border: none;
-           padding: 10px 15px;
-           border-radius: 8px;
-           cursor: pointer;
+            background: transparent;
+            color: #007bff;
+            border: 2px solid #007bff;
+            padding: 10px 16px;
+            border-radius: 6px;
             }
 
-.btn:hover {
-  background-color: #0056b3;
-}
+      .btn:hover {
+            background-color: #0056b3;
+            }
 
         section { 
             background: #fff; /* 區塊背景設定為白色 */
