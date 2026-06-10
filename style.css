@@ -20,6 +20,19 @@
             padding: 0 20px; /* 讓容器左右留一點點邊界，手機看才不會貼邊 */
         }
 
+       .btn {
+           background-color: #007bff;
+           color: white;
+           border: none;
+           padding: 10px 15px;
+           border-radius: 8px;
+           cursor: pointer;
+            }
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
         section { 
             background: #fff; /* 區塊背景設定為白色 */
             padding: 2rem; /* 區塊內留白 */
